@@ -6,8 +6,26 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style/common.css">
+    <link rel="stylesheet" href="style/Layout.css">
+    <link rel="stylesheet" href="style/Header_bar.css">
 </head>
 <body>
-
+<div class="Layout">
+    <header class="Layout__header">
+        <div class="Header-bar">
+            <a href="" class="Header-bar__logo" title="Quora logo"></a>
+            <nav class="Header-bar__control-panel">
+                <a href="" class="Header-bar__control-item Header-bar__control-item_icon_home Header-bar__control-item_current">Home</a>
+                <a href="" class="Header-bar__control-item Header-bar__control-item_icon_answer">Answer</a>
+                <a href="" class="Header-bar__control-item Header-bar__control-item_icon_spaces">Spaces</a>
+                <button class="Header-bar__control-item Header-bar__control-item_icon_notification">Notifications</button>
+            </nav>
+            <input type="text" aria-label="search" placeholder="Search Quora" class="Header-bar__search-box search-box">
+            <button class="Header-bar__profile-menu" aria-label="profile menu"></button>
+            <button class="Header-bar__add-question-button">Add Question or Link</button>
+        </div>
+    </header>
+</div>
 </body>
 </html>

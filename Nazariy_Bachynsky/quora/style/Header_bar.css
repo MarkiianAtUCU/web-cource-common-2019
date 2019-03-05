@@ -1,0 +1,44 @@
+.Header-bar {
+  background: #ffffff;
+}
+.Header-bar__logo {
+  background-image: url(//qsf.fs.quoracdn.net/-3-images.logo.wordmark_default.svg-26-bfa6b94bc0d6af2e.svg);
+  display: block;
+  width: 80px;
+  min-width: 80px;
+  height: 50px;
+  background-size: 80px 23px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.Header-bar__control-item {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #666;
+  text-decoration: none;
+  padding: 0 14px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-color: transparent;
+}
+.Header-bar__control-item_current {
+  color: #b92b27;
+  border-bottom: 2px solid transparent;
+}
+.Header-bar__control-item_icon_home {
+  background-image: url("../icons/home.svg");
+}
+.Header-bar__control-item_icon_answer {
+  background-image: url("../icons/answer.svg");
+}
+.Header-bar__control-item_icon_spaces {
+  background-image: url("../icons/spaces.svg");
+}
+.Header-bar__control-item_icon_notification {
+  background-image: url("../icons/notifications.svg");
+}
+/*# sourceMappingURL=Header_bar.css.map */

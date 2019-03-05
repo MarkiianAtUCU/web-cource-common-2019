@@ -1,0 +1,13 @@
+.Layout {
+  background: #F44336;
+  display: grid;
+  grid-template: "header header header header header" 53px ". side-bar main aside ." auto / auto 142px 614px 184px auto;
+  column-gap: 42px;
+  height: 3000px;
+}
+.Layout__header {
+  background: #E91E63;
+  grid-area: header;
+  justify-self: center;
+}
+/*# sourceMappingURL=Layout.css.map */
