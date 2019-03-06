@@ -1,5 +1,5 @@
 .Layout {
-  background: #F44336;
+  background: #fafafa;
   display: grid;
   grid-template: "header header header header header" 53px ". side-bar main aside ." auto / auto 142px 614px 184px auto;
   column-gap: 42px;
@@ -15,7 +15,6 @@
 }
 .Layout__side-bar {
   grid-area: side-bar;
-  background: #ffffff;
 }
 .Layout__main-block {
   grid-area: main;
@@ -23,6 +22,5 @@
 }
 .Layout__advice-block {
   grid-area: aside;
-  background: #4CAF50;
 }
 /*# sourceMappingURL=Layout.css.map */

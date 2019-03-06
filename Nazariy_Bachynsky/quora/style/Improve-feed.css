@@ -1,0 +1,33 @@
+.Improve-feed {
+  position: fixed;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  color: #333;
+  font-size: 13px;
+  height: 390px;
+  width: 172px;
+  border-radius: 3px;
+  border: 1px solid #e2e2e2;
+  background-color: #ffffff;
+}
+.Improve-feed__header {
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 500;
+  padding: 16px;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fafafa;
+}
+.Improve-feed__check-icon {
+  width: 14px;
+  height: 13px;
+}
+.Improve-feed__check-icon_unchecked {
+  opacity: 0.2;
+}
+.Improve-feed__item_checked {
+  text-decoration: line-through;
+  color: #949494;
+}
+/*# sourceMappingURL=Improve-feed.css.map */
