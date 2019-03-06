@@ -1,8 +1,6 @@
 .Layout {
   background: #F44336;
   display: grid;
-  //grid-template-rows: 53px auto;
-  //grid-template-columns: auto 142px 614px 184px auto;
   grid-template:
                 "header header header header header" 53px
                 ". side-bar main aside ." auto
@@ -12,14 +10,12 @@
   height: 3000px;
 
   &__header {
-    //position: sticky;
-    background: #E91E63;
+    background: #ffffff;
     grid-area: header;
-    justify-self: center;
-    //grid-column-start: 2;
-    //grid-column-end: 5;
-    //grid-row-start: 1;
-    //grid-row-end: 2;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 3px 2px -2px rgba(200,200,200,0.2)
   }
 
   &__side-bar {

@@ -6,9 +6,12 @@
   height: 3000px;
 }
 .Layout__header {
-  background: #E91E63;
+  background: #ffffff;
   grid-area: header;
-  justify-self: center;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 3px 2px -2px rgba(200, 200, 200, 0.2);
 }
 .Layout__side-bar {
   grid-area: side-bar;
