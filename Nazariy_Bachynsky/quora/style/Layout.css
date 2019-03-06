@@ -15,7 +15,7 @@
 }
 .Layout__side-bar {
   grid-area: side-bar;
-  background: #00BCD4;
+  background: #ffffff;
 }
 .Layout__main-block {
   grid-area: main;

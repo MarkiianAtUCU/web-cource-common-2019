@@ -1,0 +1,34 @@
+.Home-navigation {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+.Home-navigation__topic {
+  text-decoration: none;
+  background: #ffffff;
+  width: 138px;
+  margin-bottom: 8px;
+  padding: 4px;
+  margin-left: -4px;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #333;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+}
+.Home-navigation__topic_current {
+  background: #e6e6e6;
+}
+.Home-navigation__icon {
+  height: 18px;
+  width: 18px;
+  margin-right: 8px;
+  border-radius: 2px;
+  background-color: #949494;
+}
+.Home-navigation__icon_current {
+  background-color: #b92b27;
+}
+/*# sourceMappingURL=Home-navigation.css.map */
