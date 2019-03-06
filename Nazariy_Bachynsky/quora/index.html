@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style/common.css">
     <link rel="stylesheet" href="style/Layout.css">
     <link rel="stylesheet" href="style/Header_bar.css">
+    <link rel="stylesheet" href="style/Home-navigation.css">
+    <link rel="stylesheet" href="style/Improve-feed.css">
 </head>
 <body>
 <div class="Layout">
@@ -16,16 +18,50 @@
         <div class="Header-bar">
             <a href="" class="Header-bar__logo" title="Quora logo"></a>
             <nav class="Header-bar__control-panel">
-                <a href="" class="Header-bar__control-item Header-bar__control-item_icon_home Header-bar__control-item_current">Home</a>
+                <a href=""
+                   class="Header-bar__control-item Header-bar__control-item_icon_home Header-bar__control-item_current">Home</a>
                 <a href="" class="Header-bar__control-item Header-bar__control-item_icon_answer">Answer</a>
                 <a href="" class="Header-bar__control-item Header-bar__control-item_icon_spaces">Spaces</a>
-                <button class="Header-bar__control-item Header-bar__control-item_icon_notification">Notifications</button>
+                <button class="Header-bar__control-item Header-bar__control-item_icon_notification">Notifications
+                </button>
             </nav>
             <input type="text" aria-label="search" placeholder="Search Quora" class="Header-bar__search-box search-box">
             <button class="Header-bar__profile-menu" aria-label="profile menu"></button>
             <button class="Header-bar__add-question-button">Add Question or Link</button>
         </div>
     </header>
+    <section class="Layout__side-bar">
+        <nav class="Home-navigation">
+            <a href="" class="Home-navigation__topic Home-navigation__topic_current">Feed</a>
+            <a href="" class="Home-navigation__topic">Integers</a>
+            <a href="" class="Home-navigation__topic">Artificial General Intelligence</a>
+            <a href="" class="Home-navigation__topic">Scientists</a>
+            <a href="" class="Home-navigation__topic">Physicists</a>
+            <a href="" class="Home-navigation__topic">The Solar System</a>
+            <a href="" class="Home-navigation__topic">Alternative Energy</a>
+            <a href="" class="Home-navigation__topic">Albert Einstein (physicist)</a>
+            <a href="" class="Home-navigation__topic">Speed</a>
+            <a href="" class="Home-navigation__topic">Speed of Light</a>
+            <a href="" class="Home-navigation__topic">Relativity (physics)</a>
+            <a href="" class="Home-navigation__topic">Android devices</a>
+            <a href="" class="Home-navigation__topic">Numbers (mathematics)</a>
+            <a href="" class="Home-navigation__topic">Bookmarks</a>
+        </nav>
+    </section>
+    <main class="Layout__main-block">
+    </main>
+    <aside class="Layout__advice-block">
+        <div class="Improve-feed">
+            <h3 class="Improve-feed__header">Improve Your Feed</h3>
+            <p class="Improve-feed__item Improve-feed__item_checked">Visit your feed</p>
+            <p class="Improve-feed__item Improve-feed__item_checked">Follow 20 more topics</p>
+            <p class="Improve-feed__item Improve-feed__item_checked">Find your friends on Quora</p>
+            <p class="Improve-feed__item">Upvote 5 more good answers</p>
+            <p class="Improve-feed__item">Ask your first question</p>
+            <a href="" class="Improve-feed__item">Add 3 credentials</a>
+            <a href="" class="Improve-feed__item">Answer a question</a>
+        </div>
+    </aside>
 </div>
 </body>
 </html>

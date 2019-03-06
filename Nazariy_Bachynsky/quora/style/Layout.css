@@ -10,4 +10,16 @@
   grid-area: header;
   justify-self: center;
 }
+.Layout__side-bar {
+  grid-area: side-bar;
+  background: #00BCD4;
+}
+.Layout__main-block {
+  grid-area: main;
+  background: #009688;
+}
+.Layout__advice-block {
+  grid-area: aside;
+  background: #4CAF50;
+}
 /*# sourceMappingURL=Layout.css.map */

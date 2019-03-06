@@ -24,6 +24,7 @@
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-color: transparent;
+  text-indent: 24px;
 }
 .Header-bar__control-item_current {
   color: #b92b27;
