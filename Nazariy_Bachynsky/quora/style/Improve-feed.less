@@ -10,6 +10,8 @@
   border-radius: 3px;
   border: 1px solid #e2e2e2;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
 
   &__header {
     font-size: 15px;
@@ -18,6 +20,7 @@
     padding: 16px;
     border-bottom: 1px solid #e2e2e2;
     background-color: #fafafa;
+    margin: 0 0 8px 0;
   }
 
   &__check-icon {
@@ -29,8 +32,26 @@
     }
   }
 
+  &__item {
+    width: 138px;
+    padding: 8px 16px;
+    display: flex;
+    margin: 0;
+  }
+
+  &__text {
+    display: block;
+    margin: 0 0 0 8px;
+  }
+
   &__item_checked {
     text-decoration: line-through;
     color: #949494;
   }
+
+  &__item_link-style {
+    color: #2b6dad;
+    text-decoration: none;
+  }
+
 }

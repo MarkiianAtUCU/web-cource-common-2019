@@ -3,7 +3,7 @@
   display: grid;
   grid-template: "header header header header header" 53px ". side-bar main aside ." auto / auto 142px 614px 184px auto;
   column-gap: 42px;
-  height: 3000px;
+  row-gap: 30px;
 }
 .Layout__header {
   background: #ffffff;
@@ -18,9 +18,14 @@
 }
 .Layout__main-block {
   grid-area: main;
-  background: #009688;
 }
 .Layout__advice-block {
   grid-area: aside;
+}
+.Layout__story {
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #efefef;
+  border-bottom: 1px solid #e2e2e2;
 }
 /*# sourceMappingURL=Layout.css.map */

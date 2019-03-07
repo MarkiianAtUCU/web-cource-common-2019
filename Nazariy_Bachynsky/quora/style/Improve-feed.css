@@ -10,6 +10,8 @@
   border-radius: 3px;
   border: 1px solid #e2e2e2;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 .Improve-feed__header {
   font-size: 15px;
@@ -18,6 +20,7 @@
   padding: 16px;
   border-bottom: 1px solid #e2e2e2;
   background-color: #fafafa;
+  margin: 0 0 8px 0;
 }
 .Improve-feed__check-icon {
   width: 14px;
@@ -26,8 +29,22 @@
 .Improve-feed__check-icon_unchecked {
   opacity: 0.2;
 }
+.Improve-feed__item {
+  width: 138px;
+  padding: 8px 16px;
+  display: flex;
+  margin: 0;
+}
+.Improve-feed__text {
+  display: block;
+  margin: 0 0 0 8px;
+}
 .Improve-feed__item_checked {
   text-decoration: line-through;
   color: #949494;
+}
+.Improve-feed__item_link-style {
+  color: #2b6dad;
+  text-decoration: none;
 }
 /*# sourceMappingURL=Improve-feed.css.map */
